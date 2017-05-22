@@ -1,4 +1,10 @@
 /*
+  Ñ¡ÔñÅÅĞò·¨£º
+  ¶ÔÒ»¸ö³¤¶ÈÎªiµÄÊı×é½øĞĞiµÄ±éÀú
+  µÚÒ»±é±éÀú³ö×î´óµÄÔªËØ²¢½«ÆäÓëÊı×éµÄµÚÒ»¸öÔªËØ½»»»Î»ÖÃ
+  µÚ¶ş´Î±éÀú£¬×î´óµÄÔªËØÓëµÚ¶ş¸öÔªËØ½øĞĞ½»»»¡£
+
+  Èç´Ë±éÀún´ÎÒÔºó£¬½«ËùÓĞµÄÔªËØ´Ó´óµ½Ğ¡¾ÍÅÅÁĞ³öÀ´ÁË
 
 */
 
@@ -9,7 +15,7 @@ public class SortTest{
 		int index;
 		int temp;
 
-		System.out.println("æ’åºå‰çš„æ•°ç»„å…ƒç´ ");
+		System.out.println("ÅÅĞòÇ°µÄÊı×éÔªËØ");
 		for(int a : intarray){
 			System.out.print(a+" ");
 		}
@@ -27,7 +33,7 @@ public class SortTest{
 			intarray[i]=intarray[index];
 			intarray[index]=temp;
 		}
-		System.out.println("æ’åºåçš„æ•°ç»„ï¼š");
+		System.out.println("ÅÅĞòºóµÄÊı×é£º");
 		for(int b:intarray){
 			System.out.println(b+ " ");
 		}

@@ -1,3 +1,7 @@
+/*
+
+*/
+
 public class SortTest{
 	public static void main(String[] args){
 		int[] intarray = {1,34,45,67,65,23,6,676,56,5};
@@ -13,7 +17,7 @@ public class SortTest{
 		for(int i = 0;i <intarray.length;i++){
 			index=i;
 			keyvalue=intarray[i];
-			for(int j = 0;j<intarray.length;j++){
+			for(int j = i;j<intarray.length;j++){
 				if(intarray[j]<keyvalue){
 					index=j;
 					keyvalue=intarray[j];
